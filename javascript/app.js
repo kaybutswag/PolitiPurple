@@ -219,11 +219,11 @@ function queryAPI(newsSource1, newsSource2) {
 		
 	     }).fail(function (jqXHR, textStatus, errorThrown) {
 		 console.log("Error Message  " + textStatus);
-<<<<<<< HEAD
+
 		 newsFrontBuilder("", front1, article1Div);
-=======
+
 		 newsFrontBuilder("", front2, article2Div);
->>>>>>> try again
+
 		 });
 	}).fail(function (jqXHR, textStatus, errorThrown) {
         failNoRecord();
