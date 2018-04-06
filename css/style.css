@@ -153,7 +153,7 @@ input, select{
 .front, .back {
     width: 100%;
     height: 470px;
-    box-shadow:5px 5px 10px #4c4c4c;
+    border:0.5px solid rgb(208, 208, 208);
     
 }
 .flipper {
